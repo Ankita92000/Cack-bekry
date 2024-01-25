@@ -1,0 +1,95 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.head{
+    background-image: url(../images/background/slider_1.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.head-w{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:start;
+}
+.co{
+   color:  rgb(255, 111, 0);
+}
+.bg{
+    background-color:  rgb(238, 97, 76);
+}
+.bb{
+    width: 100%;
+    
+}
+.cake{
+    background-image: url(../images/background/spl_bg.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+.az{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+}
+.xy:hover{
+    background-color: coral;
+
+}
+.dis{
+    background-image: url(../images/background/menu-bg.jpg);
+    /* height: 70vh; */
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.chif{
+    background-image: url(../images/background/chef_bg.jpg);
+    width: 100%;
+    /* height: 80vh; */
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vdo{
+    background-image: url(../images/background/video_bg.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    background-image: url(../images/background/footer_bg.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
